@@ -1,0 +1,23 @@
+h3 {
+    color: rgb(196, 103, 28);
+}
+
+button {
+    margin-top: 10px;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title::before{
+    content: '';
+    background: #988f17;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
